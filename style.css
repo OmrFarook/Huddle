@@ -1,0 +1,93 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#landing{
+    margin-top: 0px;
+     margin-left: 0px;
+      z-index: -1;
+      width:100% ;
+      height:900px ;
+}
+
+#background {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    background-color: #edfbfe;
+    overflow-x: hidden;
+}
+
+#header{
+    color: #032b31;
+    position: absolute;
+    top: 220px;
+    left : 80px;
+    font-size: 50px;
+    font-weight: bold;
+    }
+
+
+    #logoimg{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    width: 200px;
+    height: 30px;
+
+    overflow-x: hidden;
+
+}
+
+#text{
+    position: absolute;
+    top: 390px;
+    left: 80px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #032b31;
+    overflow-x: hidden;
+    }
+.btn{
+
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+}
+
+#GetStartedButton{
+    background-color: #fe52c0;
+    position: absolute;
+    top: 490px;
+    left: 80px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0px 0px 20px 0px rgba(254, 82, 191, 0.651);
+}
+#TryButton{
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    top: 43px;
+    right: 120px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+
+}
+
+#mockups{
+    position: absolute;
+    top: 130px;
+    right: 100px;
+    width: 650px;
+    height: 500px;
+    overflow-x: hidden;
+}
