@@ -2,6 +2,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    transition: 0.5s;
 }
 
 #landing{
@@ -31,10 +32,9 @@
     left : 80px;
     font-size: 50px;
     font-weight: bold;
-    }
+}
 
-
-    #logoimg{
+#logoimg{
     position: absolute;
     top: 50px;
     left: 90px;
@@ -53,24 +53,26 @@
     font-weight: normal;
     color: #032b31;
     overflow-x: hidden;
-    }
-.btn{
+}
 
+#GetStartedButton{
+    position: absolute;
+    top: 490px;
+    left: 80px;
+
+}
+
+.pinkbtn{
+    background-color: #fe52c0;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0px 0px 20px 0px rgba(254, 82, 191, 0.651);   
     color: white;
     border-radius: 25px;
     font-weight: bold;
     border: none;
 }
 
-#GetStartedButton{
-    background-color: #fe52c0;
-    position: absolute;
-    top: 490px;
-    left: 80px;
-    height: 50px;
-    width: 200px;
-    box-shadow: 0px 0px 20px 0px rgba(254, 82, 191, 0.651);
-}
 #TryButton{
     background-color: #fff;
     color: black;
@@ -80,7 +82,9 @@
     height: 50px;
     width: 200px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
-
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
 }
 
 #mockups{
@@ -89,5 +93,121 @@
     right: 100px;
     width: 650px;
     height: 500px;
+}
+
+.cards{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    width: 80%; 
+    padding-bottom: 10ch;
+    flex-direction: column;
+    gap: 30px;
+    pa
+}
+
+.data{
+    padding: 25px;
+    gap: 30px;
+
+
+
+}
+
+.card{
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.1);
+    background-color: #fff;
+    height: 250px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#Ready{
+    display: flex;
+    color: white;
+    
+    width: 50vw;
+    padding: 5ch 0;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.1);
+    background-color: #fff;
+    text-align: center ;
+
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+footer{
+  background-color: #00252e;
+  color:               #fff;
+  padding-top: 150px;
+  padding-left: 0px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+
+
+}
+
+#info{
+    display: flex;
+   flex-direction: row;
+   gap: 200px;
+    }
+
+#copy{
+     width: 100%;
+     text-align: right;
+     font-size: 15px;
+    }
+
+#about > p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    color: #fff;
     overflow-x: hidden;
+    }
+
+#career > p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    color: #fff;
+    overflow-x: hidden;
+        }
+
+@media screen and (max-width:600px) {
+
+    * {
+        flex-direction: column !important;
+    }
+    #Ready{
+        width: 80vw;
+    }
+    
 }
